@@ -1,0 +1,63 @@
+:root {
+    --background: #FFFFFF;
+    --fonts: #EEEEEE;
+  }
+  
+  html {
+    min-width: 100%;
+    background: linear-gradient(#428BC2, #5AB7D6);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  body {
+    color: var(--fonts);
+    font-family: 'Inconsolata', monospace;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    text-shadow: 1px 1px #FFFFFF;
+  }
+  
+  #nav {
+    display: flex;
+    margin: 30px 37%;
+    width: 45%;
+    line-height: 30%;
+  }
+  #pfp {
+    position: absolute;
+    margin: auto 30%;
+    width: 6%;
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 100px;
+    z-index: -1;
+  }
+  #headers {
+    padding-top: 1%;
+    padding-left: 15px;
+    white-space: nowrap;
+  }
+  #student-info {
+    width: 100%;
+    padding-left: 50%;
+  }
+  
+  #main-content-container {
+    display: grid;
+    width: 40%;
+    margin: 50px auto;
+    text-align: justify;
+  }
+  
+  #mediator-image {
+    position: absolute;
+    opacity: 40%;
+    width: 40%;
+    margin: -100px 10%;
+    z-index: -1;
+  }
