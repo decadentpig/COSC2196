@@ -85,11 +85,18 @@ ul {
 #mediator-image {
   position: fixed;
   opacity: 25%;
-  width: 40%;
+  width: 1000px;
   margin: 6em 10%;
   z-index: -1;
 }
 
 .body-content {
   display: none;
+}
+
+@media (max-width: 1400px) {
+  #pfp {
+    margin-top: 2em;
+    width: 70px;
+  }
 }
